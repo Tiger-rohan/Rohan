@@ -620,4 +620,476 @@ gfd
 ./shell-lesson-data/north-pacific-gyre/NENE01978B.txt:Zone.Identifier
 ./shell-lesson-data/north-pacific-gyre/NENE01843B.txt
 ./shell-lesson-data/north-pacific-gyre/NENE01729A.txt:Zone.Identifier
-./shell-le
+./shell-lesson-data/north-pacific-gyre/NENE02043B.txt
+./shell-lesson-data/north-pacific-gyre/goodiff.sh:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01978A.txt
+./shell-lesson-data/north-pacific-gyre/NENE02043A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE02040Z.txt
+./shell-lesson-data/north-pacific-gyre/NENE01736A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01812A.txt
+./shell-lesson-data/north-pacific-gyre/NENE02040B.txt
+./shell-lesson-data/north-pacific-gyre/NENE01971Z.txt
+./shell-lesson-data/north-pacific-gyre/NENE02040B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01729A.txt
+./shell-lesson-data/exercise-data/writing/haiku.txt
+./shell-lesson-data/exercise-data/writing/haiku.txt:Zone.Identifier
+./shell-lesson-data/exercise-data/writing/LittleWomen.txt
+./shell-lesson-data/exercise-data/writing/LittleWomen.txt:Zone.Identifier
+./shell-lesson-data/exercise-data/animal-counts/animals.csv:Zone.Identifier
+./shell-lesson-data/exercise-data/animal-counts/animals.csv
+./shell-lesson-data/exercise-data/numbers.txt
+./shell-lesson-data/exercise-data/numbers.txt:Zone.Identifier
+./shell-lesson-data/exercise-data/creatures/basilisk.dat
+./shell-lesson-data/exercise-data/creatures/minotaur.dat:Zone.Identifier
+./shell-lesson-data/exercise-data/creatures/unicorn.dat
+./shell-lesson-data/exercise-data/creatures/minotaur.dat
+./shell-lesson-data/exercise-data/creatures/basilisk.dat:Zone.Identifier
+./shell-lesson-data/exercise-data/creatures/unicorn.dat:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/octane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/pentane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/propane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/methane.pdb
+./shell-lesson-data/exercise-data/alkanes/propane.pdb
+./shell-lesson-data/exercise-data/alkanes/octane.pdb
+./shell-lesson-data/exercise-data/alkanes/cubane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/ethane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/methane.pdb:Zone.Identifier
+./shell-lesson-data/exercise-data/alkanes/ethane.pdb
+./shell-lesson-data/exercise-data/alkanes/cubane.pdb
+./shell-lesson-data/exercise-data/alkanes/pentane.pdb
+./.bash_logout
+./.bashrc
+./.lesshst
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mwc -l $(find . -name "*.dat") | sort -n[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc -l $(find . -name "*.dat") | sort -n [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn
+[?2004l 163 ./shell-lesson-data/exercise-data/creatures/basilisk.dat
+ 163 ./shell-lesson-data/exercise-data/creatures/minotaur.dat
+ 163 ./shell-lesson-data/exercise-data/creatures/unicorn.dat
+ 489 total
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git[K[K[K[7mgit config --list[27mgit config --list
+[?2004l[?1h=user.name=Rohan Kumar[m
+user.email=rohan.kumar02@tigeranalytics.com[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=https://github.com/Tiger-rohan/Practice.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+[K[?1l>[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git add .
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git config username.name
+[?2004lRohan Kumar
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7m$ git commit -m 'Initial project version'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ git commit -m 'Initial project version'[C[C[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[master b061107] Initial project version
+ 67 files changed, 27355 insertions(+)
+ create mode 100644 do-stats.sh
+ create mode 100644 my_unix_session
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/cubane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/cubane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/ethane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/ethane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/methane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/methane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/octane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/octane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/pentane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/pentane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/propane.pdb
+ create mode 100644 shell-lesson-data/exercise-data/alkanes/propane.pdb:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/animal-counts/animals.csv
+ create mode 100644 shell-lesson-data/exercise-data/animal-counts/animals.csv:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/creatures/basilisk.dat
+ create mode 100644 shell-lesson-data/exercise-data/creatures/basilisk.dat:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/creatures/minotaur.dat
+ create mode 100644 shell-lesson-data/exercise-data/creatures/minotaur.dat:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/creatures/unicorn.dat
+ create mode 100644 shell-lesson-data/exercise-data/creatures/unicorn.dat:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/numbers.txt
+ create mode 100644 shell-lesson-data/exercise-data/numbers.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/writing/LittleWomen.txt
+ create mode 100644 shell-lesson-data/exercise-data/writing/LittleWomen.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/exercise-data/writing/haiku.txt
+ create mode 100644 shell-lesson-data/exercise-data/writing/haiku.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01729B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01736A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01736A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01751B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01812A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01812A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01843B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01971Z.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01971Z.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE01978B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02018B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02018B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040Z.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02040Z.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043A.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043A.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043B.txt
+ create mode 100644 shell-lesson-data/north-pacific-gyre/NENE02043B.txt:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goodiff.sh
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goodiff.sh:Zone.Identifier
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goostats.sh
+ create mode 100644 shell-lesson-data/north-pacific-gyre/goostats.sh:Zone.Identifier
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git add .[K[K[K[K[Ktree
+[?2004lgit: 'tree' is not a git command. See 'git --help'.
+
+The most similar command is
+	mktree
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git log
+[?2004l[?1h=[33mcommit b0611076d1aa68cd0e5401cd6eb31acf152caba9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Rohan Kumar <rohan.kumar02@tigeranalytics.com>[m
+Date:   Mon Mar 11 10:55:13 2024 +0530[m
+[m
+    Initial project version[m
+[m
+[33mcommit cae011ef44349f0d375d2986141e6b436c849254[m[33m ([m[1;31morigin/master[m[33m)[m[m
+Author: Rohan Kumar <rohan.kumar02@tigeranalytics.com>[m
+Date:   Mon Mar 11 10:09:30 2024 +0530[m
+[m
+    practice[m
+[K[?1l>[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mgit push origin master[27mgit push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohgan   an
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Practice.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Permission to Tiger-rohan/Practice.git denied to Tiger-rohan.
+fatal: unable to access 'https://github.com/Tiger-rohan/Practice.git/': The requested URL returned error: 403
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7m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[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pghp_kVhE9PgPvUY3wvfdqMX0CdYsiBOngY0Qjy6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktig [K[K[K[Kgit add ..
+[?2004lfatal: ..: '..' is outside repository at '/home/rohankumar'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git add ..[K
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git init
+[?2004lReinitialized existing Git repository in /home/rohankumar/.git/
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git [7mgit remote add origin[27mgit remote add origin[C[C[C[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C [7mhttps://github.com/Tiger-rohan/Practice[27mhttps://github.com/Tiger-rohan/Practice
+[?2004lerror: remote origin already exists.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Permission to Tiger-rohan/Practice.git denied to Tiger-rohan.
+fatal: unable to access 'https://github.com/Tiger-rohan/Practice.git/': The requested URL returned error: 403
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mgit branch <Branch name>[27mgit branch <Branch name>[K[K[K[K[K[K[K[K[K[K[K[K[Ktiger
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git -b checkout tiger
+[?2004lunknown option: -b
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git -b checkout tiger[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K checkout -b tiger
+[?2004lfatal: A branch named 'tiger' already exists.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push ^C[?2004l[?2004h[?2004l
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push [7m'https://github.com/Tiger-roha[27m[7mn[27m[7m/Practice.git/[27m[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'https://github.com/Tiger-rohan/Practice.git/ tiger
+[?2004l[?2004h> 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push 'https://github.com/Tiger-rohan/Practice.git/ tiger 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Tiger-rohan/[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push https://github.com/Tiger-rohan/Practice.git/ tiger 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P tiger
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Practice.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push https://github.com/Tiger-rohan/Practice.git tiger
+[?2004lUsername for 'https://github.com': Tiger-ri ohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Permission to Tiger-rohan/Practice.git denied to Tiger-rohan.
+fatal: unable to access 'https://github.com/Tiger-rohan/Practice.git/': The requested URL returned error: 403
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ curl --version
+[?2004lcurl 7.81.0 (x86_64-pc-linux-gnu) libcurl/7.81.0 OpenSSL/3.0.2 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.16
+Release-Date: 2022-01-05
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ldap ldaps mqtt pop3 pop3s rtmp rtsp scp sftp smb smbs smtp smtps telnet tftp 
+Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets zstd
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ curl --versiongit push https://github.com/Tiger-rohan/Practice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'https://github.com/Tiger-rohan/Practice.git/ tiger
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C://github.com/Tiger-rohan/[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C://github.com/Tiger-rohan/P[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C://github.com/Tiger-rohan/Pr[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C://github.com/Tiger-rohan/Pra[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C://github.com/Tiger-rohan/Prac[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Cs://github.com/Tiger-rohan/Pra[1@c[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[Cs://github.com/Tiger-rohan/Pr[1@a[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[Ch://github.com/Tiger-rohan/P[1@r[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push 'ssh://github.com/Tiger-rohan/Practice.git/ tiger 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [25Pcurl --version
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push 'ssh://github.com/Tiger-rohan/Practice.git/ tiger 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P tiger[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh://github.com/Tiger-rohan/Pr[1P[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C
+
+[?2004lThe authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+rohankumar@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push ssh://github.com/Tiger-rohan/Practice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'ssh://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcurl --version
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push https://github.com/Tiger-rohan/Practice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'https://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcheckout -b tiger
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b checkout[C[C[C[C[C[C[5Pbranch[C[C[C[C[C[Cpush origin masterremote add origin https://github.com/Tiger-rohan/Practice[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd ..push origin masterlog[Kpush origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit remote set-url origin[27mgit remote set-url origin [7mhttps://githu[27m[7mb[27m[7m.com/Tiger-rohan/Rohan.git[27m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/Tiger-rohan/Rohan.git
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git remote set-url origin https://github.com/Tiger-rohan/Rohan.git[A[C[Cpush ssh://github.com/Tiger-rohan/Pr[10Pactice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'ssh://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcurl --version
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push https://github.com/Tiger-rohan/Practice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'https://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcheckout -b tiger
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b checkout[C[C[C[C[C[C[5Pbranch[C[C[C[C[C[Cpush origin masterremote add origin https://github.com/Tiger-rohan/Practice[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[17Ppush origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Permission to Tiger-rohan/Rohan.git denied to Tiger-rohan.
+fatal: unable to access 'https://github.com/Tiger-rohan/Rohan.git/': The requested URL returned error: 403
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+Enumerating objects: 53, done.
+Counting objects:   1% (1/53)Counting objects:   3% (2/53)Counting objects:   5% (3/53)Counting objects:   7% (4/53)Counting objects:   9% (5/53)Counting objects:  11% (6/53)Counting objects:  13% (7/53)Counting objects:  15% (8/53)Counting objects:  16% (9/53)Counting objects:  18% (10/53)Counting objects:  20% (11/53)Counting objects:  22% (12/53)Counting objects:  24% (13/53)Counting objects:  26% (14/53)Counting objects:  28% (15/53)Counting objects:  30% (16/53)Counting objects:  32% (17/53)Counting objects:  33% (18/53)Counting objects:  35% (19/53)Counting objects:  37% (20/53)Counting objects:  39% (21/53)Counting objects:  41% (22/53)Counting objects:  43% (23/53)Counting objects:  45% (24/53)Counting objects:  47% (25/53)Counting objects:  49% (26/53)Counting objects:  50% (27/53)Counting objects:  52% (28/53)Counting objects:  54% (29/53)Counting objects:  56% (30/53)Counting objects:  58% (31/53)Counting objects:  60% (32/53)Counting objects:  62% (33/53)Counting objects:  64% (34/53)Counting objects:  66% (35/53)Counting objects:  67% (36/53)Counting objects:  69% (37/53)Counting objects:  71% (38/53)Counting objects:  73% (39/53)Counting objects:  75% (40/53)Counting objects:  77% (41/53)Counting objects:  79% (42/53)Counting objects:  81% (43/53)Counting objects:  83% (44/53)Counting objects:  84% (45/53)Counting objects:  86% (46/53)Counting objects:  88% (47/53)Counting objects:  90% (48/53)Counting objects:  92% (49/53)Counting objects:  94% (50/53)Counting objects:  96% (51/53)Counting objects:  98% (52/53)Counting objects: 100% (53/53)Counting objects: 100% (53/53), done.
+Delta compression using up to 12 threads
+Compressing objects:   2% (1/49)Compressing objects:   4% (2/49)Compressing objects:   6% (3/49)Compressing objects:   8% (4/49)Compressing objects:  10% (5/49)Compressing objects:  12% (6/49)Compressing objects:  14% (7/49)Compressing objects:  16% (8/49)Compressing objects:  18% (9/49)Compressing objects:  20% (10/49)Compressing objects:  22% (11/49)Compressing objects:  24% (12/49)Compressing objects:  26% (13/49)Compressing objects:  28% (14/49)Compressing objects:  30% (15/49)Compressing objects:  32% (16/49)Compressing objects:  34% (17/49)Compressing objects:  36% (18/49)Compressing objects:  38% (19/49)Compressing objects:  40% (20/49)Compressing objects:  42% (21/49)Compressing objects:  44% (22/49)Compressing objects:  46% (23/49)Compressing objects:  48% (24/49)Compressing objects:  51% (25/49)Compressing objects:  53% (26/49)Compressing objects:  55% (27/49)Compressing objects:  57% (28/49)Compressing objects:  59% (29/49)Compressing objects:  61% (30/49)Compressing objects:  63% (31/49)Compressing objects:  65% (32/49)Compressing objects:  67% (33/49)Compressing objects:  69% (34/49)Compressing objects:  71% (35/49)Compressing objects:  73% (36/49)Compressing objects:  75% (37/49)Compressing objects:  77% (38/49)Compressing objects:  79% (39/49)Compressing objects:  81% (40/49)Compressing objects:  83% (41/49)Compressing objects:  85% (42/49)Compressing objects:  87% (43/49)Compressing objects:  89% (44/49)Compressing objects:  91% (45/49)Compressing objects:  93% (46/49)Compressing objects:  95% (47/49)Compressing objects:  97% (48/49)Compressing objects: 100% (49/49)Compressing objects: 100% (49/49), done.
+Writing objects:   1% (1/53)Writing objects:   3% (2/53)Writing objects:   5% (3/53)Writing objects:   7% (4/53)Writing objects:   9% (5/53)Writing objects:  11% (6/53)Writing objects:  13% (7/53)Writing objects:  15% (8/53)Writing objects:  16% (9/53)Writing objects:  18% (10/53)Writing objects:  20% (11/53)Writing objects:  22% (12/53)Writing objects:  24% (13/53)Writing objects:  26% (14/53)Writing objects:  28% (15/53)Writing objects:  30% (16/53)Writing objects:  33% (18/53)Writing objects:  35% (19/53)Writing objects:  37% (20/53)Writing objects:  39% (21/53)Writing objects:  41% (22/53)Writing objects:  43% (23/53)Writing objects:  45% (24/53)Writing objects:  47% (25/53)Writing objects:  49% (26/53)Writing objects:  50% (27/53)Writing objects:  52% (28/53)Writing objects:  54% (29/53)Writing objects:  56% (30/53)Writing objects:  58% (31/53)Writing objects:  60% (32/53)Writing objects:  62% (33/53)Writing objects:  64% (34/53)Writing objects:  66% (35/53)Writing objects:  67% (36/53)Writing objects:  69% (37/53)Writing objects:  71% (38/53)Writing objects:  73% (39/53)Writing objects:  75% (40/53)Writing objects:  77% (41/53)Writing objects:  79% (42/53)Writing objects:  81% (43/53)Writing objects:  83% (44/53)Writing objects:  84% (45/53)Writing objects:  86% (46/53)Writing objects:  88% (47/53)Writing objects:  90% (48/53)Writing objects:  92% (49/53)Writing objects:  94% (50/53)Writing objects:  96% (51/53)Writing objects:  98% (52/53)Writing objects: 100% (53/53)Writing objects: 100% (53/53), 455.32 KiB | 3.79 MiB/s, done.
+Total 53 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), done.[K
+To https://github.com/Tiger-rohan/Rohan.git
+ * [new branch]      master -> master
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mconda install[27mconda install
+[?2004lconda: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7msha256sum[27msha256sum rohan
+[?2004lsha256sum: rohan: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ sha256sum rohan[K[K[K[K[K
+[?2004l
+^C
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mmkdir -p ~/miniconda3[27m
+[7mwget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O [27m[7m~[27m[7m/miniconda3/miniconda.sh [27m
+[7mbash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3[27m
+[7mrm -rf ~/miniconda3/miniconda.sh[27m[A[A[A[Amkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+[?2004l--2024-03-11 11:15:01--  https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.131.3, 104.16.130.3, 2606:4700::6810:8203, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.131.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 144041912 (137M) [application/octet-stream]
+Saving to: ‘/home/rohankumar/miniconda3/miniconda.sh’
+
+          /home/roh   0%[                  ]       0  --.-KB/s                        /home/roha   2%[                  ]   3.51M  17.5MB/s                       /home/rohan   7%[>                 ]   9.73M  24.3MB/s                      /home/rohank  12%[=>                ]  16.50M  27.4MB/s                     /home/rohanku  16%[==>               ]  23.19M  28.8MB/s                    /home/rohankum  19%[==>               ]  26.72M  17.8MB/s                   /home/rohankuma  22%[==>               ]  30.30M  17.8MB/s                  /home/rohankumar  25%[===>              ]  34.69M  18.0MB/s                 /home/rohankumar/  27%[===>              ]  37.66M  15.7MB/s                /home/rohankumar/m  31%[====>             ]  43.57M  16.7MB/s               /home/rohankumar/mi  35%[=====>            ]  48.16M  14.2MB/s    eta 6s     home/rohankumar/min  39%[======>           ]  54.77M  15.3MB/s    eta 6s     ome/rohankumar/mini  43%[======>           ]  59.43M  13.5MB/s    eta 6s     me/rohankumar/minic  46%[=======>          ]  63.76M  13.9MB/s    eta 6s     e/rohankumar/minico  49%[=======>          ]  67.87M  12.4MB/s    eta 6s     /rohankumar/minicon  50%[========>         ]  69.43M  12.2MB/s    eta 6s     rohankumar/minicond  52%[========>         ]  71.62M  12.1MB/s    eta 6s     ohankumar/miniconda  54%[========>         ]  74.85M  11.7MB/s    eta 6s     hankumar/miniconda3  56%[=========>        ]  77.35M  10.4MB/s    eta 6s     ankumar/miniconda3/  57%[=========>        ]  78.87M  9.70MB/s    eta 5s     nkumar/miniconda3/m  59%[=========>        ]  81.08M  10.2MB/s    eta 5s     kumar/miniconda3/mi  61%[==========>       ]  85.08M  9.42MB/s    eta 5s     umar/miniconda3/min  64%[==========>       ]  89.12M  9.31MB/s    eta 4s     mar/miniconda3/mini  68%[===========>      ]  93.87M  10.4MB/s    eta 4s     ar/miniconda3/minic  72%[===========>      ]  99.15M  10.5MB/s    eta 4s     r/miniconda3/minico  74%[============>     ] 102.24M  10.7MB/s    eta 4s     /miniconda3/minicon  78%[=============>    ] 108.01M  10.9MB/s    eta 2s     miniconda3/minicond  80%[=============>    ] 109.91M  8.95MB/s    eta 2s     iniconda3/miniconda  83%[=============>    ] 114.12M  10.3MB/s    eta 2s     niconda3/miniconda.  87%[==============>   ] 119.85M  10.7MB/s    eta 2s     iconda3/miniconda.s  89%[===============>  ] 122.76M  11.1MB/s    eta 2s     conda3/miniconda.sh  92%[===============>  ] 127.62M  11.7MB/s    eta 2s     onda3/miniconda.sh   96%[================> ] 132.65M  12.4MB/s    eta 0s     nda3/miniconda.sh    99%[================> ] 136.04M  11.5MB/s    eta 0s     da3/miniconda.sh     99%[================> ] 136.24M  9.92MB/s    eta 0s     /home/rohankumar/mi 100%[=================>] 137.37M  9.89MB/s    in 12s     
+
+2024-03-11 11:15:13 (11.0 MB/s) - ‘/home/rohankumar/miniconda3/miniconda.sh’ saved [144041912/144041912]
+
+PREFIX=/home/rohankumar/miniconda3
+Unpacking payload ...
+  0%|                                                  | 0/73 [00:00<?, ?it/s]Extracting : conda-package-handling-2.2.0-py312h06a4308_0.conda:   0%| | 0/73 Extracting : conda-package-streaming-0.9.0-py312h06a4308_0.conda:   1%| | 1/73Extracting : libcurl-8.5.0-h251f7ec_0.conda:   3%| | 2/73 [00:00<00:01, 39.34iExtracting : tqdm-4.65.0-py312he106c6f_0.conda:   4%| | 3/73 [00:00<00:01, 37.Extracting : ruamel.yaml-0.17.21-py312h5eee18b_0.conda:   5%| | 4/73 [00:00<00Extracting : libev-4.33-h7f8727e_1.conda:   7%| | 5/73 [00:00<00:01, 58.36it/sExtracting : libuuid-1.41.5-h5eee18b_0.conda:   8%| | 6/73 [00:00<00:00, 69.91Extracting : pycparser-2.21-pyhd3eb1b0_0.conda:  10%| | 7/73 [00:00<00:00, 81.Extracting : idna-3.4-py312h06a4308_0.conda:  11%| | 8/73 [00:00<00:00, 84.81iExtracting : tk-8.6.12-h1ccaba5_0.conda:  12%| | 9/73 [00:00<00:01, 35.41it/s]Extracting : tk-8.6.12-h1ccaba5_0.conda:  14%|▏| 10/73 [00:00<00:01, 39.31it/sExtracting : archspec-0.2.1-pyhd3eb1b0_0.conda:  14%|▏| 10/73 [00:00<00:01, 39Extracting : libsolv-0.7.24-he621ea3_0.conda:  15%|▏| 11/73 [00:00<00:01, 39.3Extracting : pybind11-abi-4-hd3eb1b0_1.conda:  16%|▏| 12/73 [00:00<00:01, 39.3Extracting : pcre2-10.42-hebb0a14_0.conda:  18%|▏| 13/73 [00:00<00:01, 39.31itExtracting : readline-8.2-h5eee18b_0.conda:  19%|▏| 14/73 [00:00<00:01, 39.31iExtracting : tzdata-2023d-h04d1e81_0.conda:  21%|▏| 15/73 [00:00<00:01, 39.31iExtracting : cryptography-41.0.7-py312hdda0065_0.conda:  22%|▏| 16/73 [00:00<0Extracting : xz-5.4.5-h5eee18b_0.conda:  23%|▏| 17/73 [00:00<00:01, 39.31it/s]Extracting : xz-5.4.5-h5eee18b_0.conda:  25%|▏| 18/73 [00:00<00:01, 52.55it/s]Extracting : python-3.12.1-h996f2a0_0.conda:  25%|▏| 18/73 [00:01<00:01, 52.55Extracting : icu-73.1-h6a678d5_0.conda:  26%|▎| 19/73 [00:01<00:01, 52.55it/s]Extracting : libgomp-11.2.0-h1234567_1.conda:  27%|▎| 20/73 [00:01<00:01, 52.5Extracting : ca-certificates-2023.12.12-h06a4308_0.conda:  29%|▎| 21/73 [00:01Extracting : sqlite-3.41.2-h5eee18b_0.conda:  30%|▎| 22/73 [00:01<00:00, 52.55Extracting : ld_impl_linux-64-2.38-h1181459_1.conda:  32%|▎| 23/73 [00:01<00:0Extracting : libnghttp2-1.57.0-h2d74bed_0.conda:  33%|▎| 24/73 [00:01<00:00, 5Extracting : libnghttp2-1.57.0-h2d74bed_0.conda:  34%|▎| 25/73 [00:01<00:03, 1Extracting : reproc-cpp-14.2.4-h295c915_1.conda:  34%|▎| 25/73 [00:01<00:03, 1Extracting : requests-2.31.0-py312h06a4308_1.conda:  36%|▎| 26/73 [00:01<00:02Extracting : zstd-1.5.5-hc292b87_0.conda:  37%|▎| 27/73 [00:01<00:02, 15.99it/Extracting : wheel-0.41.2-py312h06a4308_0.conda:  38%|▍| 28/73 [00:01<00:02, 1Extracting : yaml-cpp-0.8.0-h6a678d5_0.conda:  40%|▍| 29/73 [00:01<00:02, 15.9Extracting : fmt-9.1.0-hdb19cb5_0.conda:  41%|▍| 30/73 [00:01<00:02, 15.99it/sExtracting : reproc-14.2.4-h295c915_1.conda:  42%|▍| 31/73 [00:01<00:02, 15.99Extracting : platformdirs-3.10.0-py312h06a4308_0.conda:  44%|▍| 32/73 [00:01<0Extracting : packaging-23.1-py312h06a4308_0.conda:  45%|▍| 33/73 [00:01<00:02,Extracting : _openmp_mutex-5.1-1_gnu.conda:  47%|▍| 34/73 [00:01<00:02, 15.99iExtracting : menuinst-2.0.2-py312h06a4308_0.conda:  48%|▍| 35/73 [00:01<00:02,Extracting : openssl-3.0.13-h7f8727e_0.conda:  49%|▍| 36/73 [00:01<00:02, 15.9Extracting : pysocks-1.7.1-py312h06a4308_0.conda:  51%|▌| 37/73 [00:01<00:02, Extracting : pluggy-1.0.0-py312h06a4308_1.conda:  52%|▌| 38/73 [00:01<00:02, 1Extracting : c-ares-1.19.1-h5eee18b_0.conda:  53%|▌| 39/73 [00:01<00:02, 15.99Extracting : certifi-2024.2.2-py312h06a4308_0.conda:  55%|▌| 40/73 [00:01<00:0Extracting : pip-23.3.1-py312h06a4308_0.conda:  56%|▌| 41/73 [00:01<00:02, 15.Extracting : libedit-3.1.20230828-h5eee18b_0.conda:  58%|▌| 42/73 [00:01<00:01Extracting : cffi-1.16.0-py312h5eee18b_0.conda:  59%|▌| 43/73 [00:01<00:01, 15Extracting : _libgcc_mutex-0.1-main.conda:  60%|▌| 44/73 [00:01<00:01, 15.99itExtracting : libstdcxx-ng-11.2.0-h1234567_1.conda:  62%|▌| 45/73 [00:01<00:01,Extracting : distro-1.8.0-py312h06a4308_0.conda:  63%|▋| 46/73 [00:01<00:01, 1Extracting : zstandard-0.19.0-py312h5eee18b_0.conda:  64%|▋| 47/73 [00:01<00:0Extracting : charset-normalizer-2.0.4-pyhd3eb1b0_0.conda:  66%|▋| 48/73 [00:01Extracting : jsonpointer-2.1-pyhd3eb1b0_0.conda:  67%|▋| 49/73 [00:01<00:01, 1Extracting : expat-2.5.0-h6a678d5_0.conda:  68%|▋| 50/73 [00:01<00:01, 15.99itExtracting : jsonpatch-1.32-pyhd3eb1b0_0.conda:  70%|▋| 51/73 [00:01<00:01, 15Extracting : conda-content-trust-0.2.0-py312h06a4308_0.conda:  71%|▋| 52/73 [0Extracting : conda-24.1.2-py312h06a4308_0.conda:  73%|▋| 53/73 [00:01<00:01, 1Extracting : libxml2-2.10.4-hf1b16e4_1.conda:  74%|▋| 54/73 [00:01<00:01, 15.9Extracting : krb5-1.20.1-h143b758_1.conda:  75%|▊| 55/73 [00:01<00:01, 15.99itExtracting : pycosat-0.6.6-py312h5eee18b_0.conda:  77%|▊| 56/73 [00:01<00:01, Extracting : urllib3-2.1.0-py312h06a4308_1.conda:  78%|▊| 57/73 [00:01<00:01, Extracting : brotli-python-1.0.9-py312h6a678d5_7.conda:  79%|▊| 58/73 [00:01<0Extracting : libmambapy-1.5.3-py312h2dafd23_0.conda:  81%|▊| 59/73 [00:01<00:0Extracting : libffi-3.4.4-h6a678d5_0.conda:  82%|▊| 60/73 [00:01<00:00, 15.99iExtracting : libssh2-1.10.0-hdbd6064_2.conda:  84%|▊| 61/73 [00:01<00:00, 15.9Extracting : zlib-1.2.13-h5eee18b_0.conda:  85%|▊| 62/73 [00:01<00:00, 15.99itExtracting : libgcc-ng-11.2.0-h1234567_1.conda:  86%|▊| 63/73 [00:01<00:00, 15Extracting : libgcc-ng-11.2.0-h1234567_1.conda:  88%|▉| 64/73 [00:01<00:00, 56Extracting : bzip2-1.0.8-h7b6447c_0.conda:  88%|▉| 64/73 [00:01<00:00, 56.59itExtracting : truststore-0.8.0-py312h06a4308_0.conda:  89%|▉| 65/73 [00:01<00:0Extracting : lz4-c-1.9.4-h6a678d5_0.conda:  90%|▉| 66/73 [00:01<00:00, 56.59itExtracting : setuptools-68.2.2-py312h06a4308_0.conda:  92%|▉| 67/73 [00:01<00:Extracting : boltons-23.0.0-py312h06a4308_0.conda:  93%|▉| 68/73 [00:01<00:00,Extracting : libarchive-3.6.2-h6ac8c49_2.conda:  95%|▉| 69/73 [00:01<00:00, 56Extracting : ncurses-6.4-h6a678d5_0.conda:  96%|▉| 70/73 [00:01<00:00, 56.59itExtracting : conda-libmamba-solver-23.12.0-pyhd3eb1b0_1.conda:  97%|▉| 71/73 [Extracting : libmamba-1.5.3-haf1ee3a_0.conda:  99%|▉| 72/73 [00:01<00:00, 56.5                                                                              
+Installing base environment...
+
+
+Downloading and Extracting Packages:
+
+
+Downloading and Extracting Packages:
+
+Preparing transaction: - \ | / done
+Executing transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+installation finished.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7m~/miniconda3/bin/conda init bash[27m
+[7m~/miniconda3/bin/conda init zsh[27m[A~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+[?2004lno change     /home/rohankumar/miniconda3/condabin/conda
+no change     /home/rohankumar/miniconda3/bin/conda
+no change     /home/rohankumar/miniconda3/bin/conda-env
+no change     /home/rohankumar/miniconda3/bin/activate
+no change     /home/rohankumar/miniconda3/bin/deactivate
+no change     /home/rohankumar/miniconda3/etc/profile.d/conda.sh
+no change     /home/rohankumar/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/rohankumar/miniconda3/shell/condabin/Conda.psm1
+no change     /home/rohankumar/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/rohankumar/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/rohankumar/miniconda3/etc/profile.d/conda.csh
+modified      /home/rohankumar/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+no change     /home/rohankumar/miniconda3/condabin/conda
+no change     /home/rohankumar/miniconda3/bin/conda
+no change     /home/rohankumar/miniconda3/bin/conda-env
+no change     /home/rohankumar/miniconda3/bin/activate
+no change     /home/rohankumar/miniconda3/bin/deactivate
+no change     /home/rohankumar/miniconda3/etc/profile.d/conda.sh
+no change     /home/rohankumar/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/rohankumar/miniconda3/shell/condabin/Conda.psm1
+no change     /home/rohankumar/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/rohankumar/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/rohankumar/miniconda3/etc/profile.d/conda.csh
+modified      /home/rohankumar/.zshrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mconda create -n[27mconda create -n rohan
+[?2004lconda: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push -u all
+[?2004lfatal: 'all' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push -u all[K[K[K[K
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mgit push --set-upstream origin master[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push --set-upstream origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push --set-upstream origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push --set-upstream origin master
+[?2004lUsername for 'https://github.com': Tiger#1234@
+Password for 'https://Tiger#1234@@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push --set-upstream origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push --set-upstream origin masteru[K
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push -u[K[K[K
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push -u[K[Kgit push
+[?2004lfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push -u-set-upstream origin masteru[K allconda create -n rohan~/miniconda3/bin/conda init zshbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf ~/miniconda3/miniconda.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh [A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmkdir -p ~/miniconda3
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Psha256sum rohan[2Pconda installgit push origin masterremote set-url origin https://github.com/Tiger-rohan/Rohan.git[A[C[C[17Ppush origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Tiger-rohan/Rohan.git/'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Tiger-rohan
+Password for 'https://Tiger-rohan@github.com': 
+Everything up-to-date
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git config
+[?2004lusage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git con[K[K[K--versiob[Kn
+[?2004lgit version 2.34.1
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ condo --version
+[?2004lcondo: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ conda
+[?2004lconda: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ hello [K[K[K[K[K[Kls
+[?2004ldo-stats.sh  [0m[01;34mheloo[0m       [01;34mmy_parent_folder[0m  [01;34mshell-lesson-data[0m
+foo.txt      [01;34mminiconda3[0m  my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git [K[K[K[Kgit add .
+[?2004l^C
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git add .[K[K.
+[?2004lgit: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ git add. .ls[Kcondao --version[2Pgit[C[C[C[C[C[C[C[C[C[C[3Pconfigpush origin master[K -u-set-upstream origin masteru[K allconda create -n rohan~/miniconda3/bin/conda init zshbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf ~/miniconda3/miniconda.sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh [A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pmkdir -p ~/miniconda3
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Psha256sum rohan[2Pconda installgit push origin masterremote set-url origin https://github.com/Tiger-rohan/Rohan.git[A[C[Cpush ssh://github.com/Tiger-rohan/Pr[10Pactice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'ssh://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcurl --version
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push https://github.com/Tiger-rohan/Practice.git tiger[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C'https://github.com/Tiger-rohan/Practice.git/ tiger
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pcheckout -b tiger
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-b checkout[C[C[C[C[C[C[5Pbranch[C[C[C[C[C[Cpush origin masterremote add origin https://github.com/Tiger-rohan/Practice[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd ..
+[?2004lfatal: ..: '..' is outside repository at '/home/rohankumar'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohan
