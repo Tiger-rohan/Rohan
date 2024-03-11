@@ -1,0 +1,623 @@
+Script started on 2024-03-11 10:18:22+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="33"]
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [K]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ pwd
+[?2004l/home/rohankumar
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ks
+[?2004lks: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ks
+[?2004lks: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  my_unix_session  [0m[01;34mshell-lesson-data[0m
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls-[K -f
+[?2004l.sudo_as_admin_successful  foo.txt      shell-lesson-data  ..
+.gitconfig                 .git         .bash_logout       .
+my_unix_session            .motd_shown  .bashrc
+.bash_history              .profile     .lesshst
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -help
+[?2004lls: invalid option -- 'e'
+Try 'ls --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls --help
+[?2004lUsage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ man ls
+[?2004l[?1049h[22;0;0t[?1h=LS(1)                    User Commands                   LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List information about the FILEs (the current directory[m
+       by default).  Sort entries alphabetically  if  none  of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory  arguments  to long options are mandatory for[m
+       short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them;[m
+              e.g., '--block-size=M'; see SIZE format below[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -j
+[?2004lls: invalid option -- 'j'
+Try 'ls --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls --j
+[?2004lls: unrecognized option '--j'
+Try 'ls --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ man ls
+[?2004l[?1049h[22;0;0t[?1h=LS(1)                    User Commands                   LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List information about the FILEs (the current directory[m
+       by default).  Sort entries alphabetically  if  none  of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory  arguments  to long options are mandatory for[m
+       short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them;[m
+              e.g., '--block-size=M'; see SIZE format below[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F Desktop
+[?2004lls: cannot access 'Desktop': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F foo
+[?2004lls: cannot access 'foo': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  my_unix_session  [0m[01;34mshell-lesson-data[0m
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F Des[K[K[Kfoo
+[?2004lls: cannot access 'foo': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F foo.[K[K[K[K shee[Kll-lesson-data
+[?2004l[0m[01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ la -F ex[K[Kshell-lesson-data/exercise-data
+[?2004l[0m[01;34malkanes[0m/        [01;34mcreatures[0m/   numbers.txt:Zone.Identifier
+[01;34manimal-counts[0m/  numbers.txt  [01;34mwriting[0m/
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cd[K[Kcd shell-lesson-data/
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/shell-lesson-data[01;32mrohankumar@TIGER04460[00m:[01;34m~/shell-lesson-data[00m$ cd exercise-data/
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/shell-lesson-data/exercise-data[01;32mrohankumar@TIGER04460[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+[?2004l/home/rohankumar/shell-lesson-data/exercise-data
+[?2004h]0;rohankumar@TIGER04460: ~/shell-lesson-data/exercise-data[01;32mrohankumar@TIGER04460[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ lsd[K -f
+[?2004lwriting        numbers.txt                  creatures  .
+animal-counts  numbers.txt:Zone.Identifier  ..         alkanes
+[?2004h]0;rohankumar@TIGER04460: ~/shell-lesson-data/exercise-data[01;32mrohankumar@TIGER04460[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd ..
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/shell-lesson-data[01;32mrohankumar@TIGER04460[00m:[01;34m~/shell-lesson-data[00m$ cd '[K..
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ pwd
+[?2004l/home/rohankumar
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F -a
+[?2004l[0m[01;34m.[0m/             [01;34m.git[0m/        .sudo_as_admin_successful
+[01;34m..[0m/            .gitconfig   foo.txt
+.bash_history  .lesshst     my_unix_session
+.bash_logout   .motd_shown  [01;34mshell-lesson-data[0m/
+.bashrc        .profile
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cd
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ pwd
+[?2004l/home/rohankumar
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F/
+[?2004lls: invalid option -- '/'
+Try 'ls --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F/[K /
+[?2004l[0m[01;36mbin[0m@   [01;34metc[0m/   [01;36mlib[0m@    [01;36mlibx32[0m@      [01;34mmnt[0m/   [01;34mroot[0m/  [01;34msnap[0m/  [30;42mtmp[0m/
+[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msrv[0m/   [01;34musr[0m/
+[01;34mdev[0m/   [01;32minit[0m*  [01;36mlib64[0m@  [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [01;34msys[0m/   [01;34mvar[0m/
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -s
+[?2004ltotal 20
+ 0 foo.txt  16 my_unix_session   4 [0m[01;34mshell-lesson-data[0m
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls not[Kr
+[?2004lls: cannot access 'nor': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ mkdir thesis
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F
+[?2004lfoo.txt  my_unix_session  [0m[01;34mshell-lesson-data[0m/  [01;34mthesis[0m/
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -F thesis
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ mkdir -p ../project/data../project/resu lt[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu lts
+[?2004lmkdir: cannot create directory ‘../project’: Permission denied
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mmkdir -p ../project/data ../project/res[27m[7mu[27m[7mlts[27m[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ mkdir -p ../project/data ../project/results
+[?2004lmkdir: cannot create directory ‘../project’: Permission denied
+mkdir: cannot create directory ‘../project’: Permission denied
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mmkdir -p my_parent_folder/my_folder[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p my_parent_folder/my_folder
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -Fr[KR ../my_parent_folder
+[?2004lls: cannot access '../my_parent_folder': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -FR ../my_parent_folder[K[K[K[K[K[K[K[K[K[K[K[K[Kfolder
+[?2004lls: cannot access '../my_folder': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls -FR ../my_folder[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd theisi[K[K[Ksis
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ nono [K[K[K[Kano draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;27H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                draft.txt                         [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;41H(B[0;7m*[63G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[3d[?12l[?25h[?25l[?12l[?25hm[?25l[?12l[?25hy[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[30d[K[?12l[?25h[3;13Ho[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25hk[?25l[?12l[?25hu[?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[4d[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hl[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25he[?25l[?12l[?25he[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hy[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[5d[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hk[?25l[?12l[?25h [?25l[?12l[?25hy[?25l[?12l[?25hoi[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hu[?25l[30d(B[0;7mSave modified buffer?                                           [31;1H Y(B[m Yes[K[32d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[30;23H[?12l[?25h[?25l[31d(B[0;7m^G(B[m Help[31;17H(B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[30d(B[0;7mFile Name to Write: draft.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mf(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;41H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 4 lines ](B[m[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ nano draft.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;26H(B[0;7m[ Reading... ](B[m[30;25H(B[0;7m[ Read 4 lines ](B[m[H(B[0;7m  GNU nano 6.2                draft.txt                         [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2dhello[3dmy name is rohan kumar[4dglad to meet you[5dthank you[2d[?12l[?25h[?25l[30d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ ls
+[?2004ldraft.txt
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ draft.txt
+[?2004ldraft.txt: command not found
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ touch myfile.tex[K[Kxt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm my [K_file.tex[K[Kxt
+[?2004lrm: cannot remove 'my_file.txt': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm draft.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm -r thesus[K[Kis
+[?2004lrm: cannot remove 'thesis': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm -my_farent[K[K[K[K[K[K[K[K[K my_parent_folder
+[?2004lrm: cannot remove '-': No such file or directory
+rm: cannot remove 'my_parent_folder': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm - my_parent_folderr my_parent_folder
+[?2004lrm: cannot remove 'my_parent_folder': No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ rm -r my_parent_folder[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kthr[K[K[K[K[K[K[K[K[Kls
+[?2004lmyfile.txt
+[?2004h]0;rohankumar@TIGER04460: ~/thesis[01;32mrohankumar@TIGER04460[00m:[01;34m~/thesis[00m$ cs[Kd ..
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ rm - thesis
+[?2004lrm: cannot remove '-': No such file or directory
+rm: cannot remove 'thesis': Is a directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ rm -r thesis
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ mkdir[K[K[K[K[Kmkdir -p heloo
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  [0m[01;34mmy_parent_folder[0m  [01;34mshell-lesson-data[0m
+[01;34mheloo[0m    my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cd heloo
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~/heloo[01;32mrohankumar@TIGER04460[00m:[01;34m~/heloo[00m$ cd ..
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc cubane.pdf[Kb
+[?2004lwc: cubane.pdb: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ ls
+[?2004lfoo.txt  [0m[01;34mmy_parent_folder[0m  [01;34mshell-lesson-data[0m
+[01;34mheloo[0m    my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc foo.txt
+[?2004l0 0 0 foo.txt
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ nano foo.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;26H(B[0;7m[ Reading... ](B[m[30;25H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                 foo.txt                          [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;40H(B[0;7m*[63G(B[m[?12l[?25h[2dh[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[3d[?12l[?25h[?25l[30d(B[0;7mSave modified buffer?                                           [31;1H Y(B[m Yes[K[32d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[30;23H[?12l[?25h[?25l[31d(B[0;7m^G(B[m Help[31;17H(B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[30d(B[0;7mFile Name to Write: foo.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;40H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 2 lines ](B[m[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ nano foo.txt[2Pwc[C[C[C[C[C[C[C[C
+[?2004l2 1 7 foo.txt
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc -1*[K * [K.txt
+[?2004lwc: invalid option -- '1'
+Try 'wc --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc -1 *.txt[K[K[K[K[K[K[K[K[K *.txt
+[?2004l2 1 7 foo.txt
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc *.txt-*.txt1*.txt
+[?2004lwc: invalid option -- '1'
+Try 'wc --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc -1*.txt[1P*.txtm*.txt
+[?2004lwc: invalid option -- '*'
+Try 'wc --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc -m*.txt[K[K[K[K[K[K[K-1 *.txt
+[?2004lwc: invalid option -- '1'
+Try 'wc --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc --help
+[?2004lUsage: wc [OPTION]... [FILE]...
+  or:  wc [OPTION]... --files0-from=F
+Print newline, word, and byte counts for each FILE, and a total line if
+more than one FILE is specified.  A word is a non-zero-length sequence of
+characters delimited by white space.
+
+With no FILE, or when FILE is -, read standard input.
+
+The options below may be used to select which counts are printed, always in
+the following order: newline, word, character, byte, maximum line length.
+  -c, --bytes            print the byte counts
+  -m, --chars            print the character counts
+  -l, --lines            print the newline counts
+      --files0-from=F    read input from the files specified by
+                           NUL-terminated names in file F;
+                           If F is - then read names from standard input
+  -L, --max-line-length  print the maximum display width
+  -w, --words            print the word counts
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/wc>
+or available locally via: info '(coreutils) wc invocation'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cat lenh[Kght.txt
+[?2004lcat: lenght.txt: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cat [K[K[K[Kls
+[?2004lfoo.txt  [0m[01;34mmy_parent_folder[0m  [01;34mshell-lesson-data[0m
+[01;34mheloo[0m    my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cat hello[K[K[K[K[Kfoo.txt
+[?2004lhello
+
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ sor [Kt -n foo.txt
+[?2004l
+hello
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ head -n 1 sorted-lenth[K[K[K[K[Kfoo.txt
+[?2004lhead: cannot open 'sorted-foo.txt' for reading: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ head -n 1 sorted-foo.txt[C[1Pfoo.txt[1Pfoo.txt[1Pfoo.txt[1Pfoo.txt[1Pfoo.txt[1Pfoo.txt[1Pfoo.txt
+[?2004lhello
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wcho[K[K[K[Kecho The echo command prints text
+[?2004lThe echo command prints text
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ echo hell
+[?2004lhell
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ echo hello > foo.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ echo hello>[K > foo.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ echo hello > foo.txt[1@e
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ echo helloe > foo.txt[1P[C[C[C[C[C[C[C[C[C[C[1@e[1@r[1@e[1@f[1@s
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cat g[Kfpp[K[Koo.txt 
+[?2004lhellerefso
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ wc foo.txt | sort n[K-n
+[?2004l 1  1 11 foo.txt
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ nan[Ka[Kno foo.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;26H(B[0;7m[ Reading... ](B[m[30;25H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                 foo.txt                          [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2dhellerefso[?12l[?25h[?25l[?12l[?25h[3d[?25l[1;40H(B[0;7m*[63G(B[m[?12l[?25h[3ds[?25l[?12l[?25hd[?25l[?12l[?25hh[?25l[?12l[?25hs[?25l[?12l[?25hd[?25l[?12l[?25hs[?25l[4d[?12l[?25h[?25l[?12l[?25hs[?25l[5d[?12l[?25h[?25l[?12l[?25hd[?25l[?12l[?25hs[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[6d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25hx[?25l[7d[?12l[?25h[?25l[?12l[?25hc[?25l[30d[K[?12l[?25h[7dcx[?25l[?12l[?25hc[?25l[8d[?12l[?25h[?25l[?12l[?25hv[?25l[?12l[?25hf[?25l[9d[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hr[?25l[10d[?12l[?25h[?25l[?12l[?25hf[?25l[11d[?12l[?25h[?25l[?12l[?25hr[?25l[?12l[?25h4[?25l[?12l[?25h][?25l[?12l[?25h5[?25l[12d[?12l[?25h[?25l[?12l[?25h3[?25l[13d[?12l[?25h[?25l[?12l[?25h5[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hg[?25l[16d[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hf[?25l[?12l[?25hd[?25l[?12l[?25hg[?25l[17d[?12l[?25h[?25l[?12l[?25hf[?25l[?12l[?25hd[?25l[?12l[?25hg[?25l[?12l[?25hf[?25l[?12l[?25hd[?25l[18d[?12l[?25h[?25l[?12l[?25hg[?25l[?12l[?25hfd[?25l[30d(B[0;7mSave modified buffer?                                           [31;1H Y(B[m Yes[K[32d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[30;23H[?12l[?25h[?25l[31d(B[0;7m^G(B[m Help[31;17H(B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[30d(B[0;7mFile Name to Write: foo.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;40H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 17 lines ](B[m[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ head -n 5 foo.txt
+[?2004lhellerefso
+sdhsds
+s
+dsdd
+cx
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ for [K[K[K[Kfor foo.txt in [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004lfoo.txt  [0m[01;34mmy_parent_folder[0m  [01;34mshell-lesson-data[0m
+[01;34mheloo[0m    my_unix_session
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cd my_parent[K[K[K[K[K[K[K[K[K[K[K[Kfor x in foo.txt
+[?2004l[?2004h> do 
+[?2004l[?2004h> head -n 2 foo.txt \[K| r[Ktail -n 1
+[?2004l[?2004h> done
+[?2004lsdhsds
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cp
+[?2004lcp: missing file operand
+Try 'cp --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cp --help
+[?2004lUsage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file (overrides
+                                 a previous -i option)
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes (default:
+                                 mode,ownership,timestamps), if possible
+                                 additional attributes: context, links, xattr,
+                                 all
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 copy only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ co[Kp foo.txt
+[?2004lcp: missing destination file operand after 'foo.txt'
+Try 'cp --help' for more information.
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ bash 
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ bash foo.txt
+[?2004lfoo.txt: line 1: hellerefso: command not found
+foo.txt: line 2: sdhsds: command not found
+foo.txt: line 3: s: command not found
+foo.txt: line 4: dsdd: command not found
+foo.txt: line 5: cx: command not found
+foo.txt: line 6: cxc: command not found
+foo.txt: line 7: vf: command not found
+foo.txt: line 8: gr: command not found
+foo.txt: line 9: f: command not found
+foo.txt: line 10: r4]5: command not found
+foo.txt: line 11: 3: command not found
+foo.txt: line 12: 5: command not found
+foo.txt: line 14: gg: command not found
+foo.txt: line 15: gfdg: command not found
+foo.txt: line 16: fdgfd: command not found
+foo.txt: line 17: gfd: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ nano d0[Ko-stats.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;27H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2               do-stats.sh                        [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[30d[K[1;42H(B[0;7m*[63G(B[m[2d[36m# Calculate stats for data files.[3d[32mfor[39m(B[m datafile [32min[39m(B[m (B[0;1m[33m"$@"[4d(B[0m[32mdo[5;5H(B[0;1m[34mecho[39m(B[m (B[0;1m[31m$datafile[6;5H[39m(B[mbash goostats.sh (B[0;1m[31m$datafile[39m(B[m stats-(B[0;1m[31m$datafile[7d(B[0m[32mdone[39m(B[m[?12l[?25h[?25l[30d(B[0;7mSave modified buffer?                                           [31;1H Y(B[m Yes[K[32d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[30;23H[?12l[?25h[?25l[31d(B[0;7m^G(B[m Help[31;17H(B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[30d(B[0;7mFile Name to Write: do-stats.sh(B[m[?12l[?25h[?25l[25G[1K (B[0;7m[ Writing... ](B[m[K[1;42H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 6 lines ](B[m[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7m$ bash do-stats.sh NENE*A.txt NENE*B.tx[27m[7mt[27m[A]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ $ bash do-stats.sh NENE*A.txt NENE*B.txt
+[?2004l$: command not found
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ $ bash do-stats.sh NENE*A.txt NENE*B.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbash do-stats.sh NENE*A.txt NENE*B.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lNENE*A.txt
+bash: goostats.sh: No such file or directory
+NENE*B.txt
+bash: goostats.sh: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ grep not haiku.y[Ktxt
+[?2004lgrep: haiku.txt: No such file or directory
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ grep not haiku.txt\[K[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtf.txto.txto.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ cat foo.txt
+[?2004lhellerefso
+sdhsds
+s
+dsdd
+cx
+cxc
+vf
+gr
+f
+r4]5
+3
+5
+
+gg
+gfdg
+fdgfd
+gfd
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ grep the foo.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ grep -w the foo.txt
+[?2004l[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ grep -w the foo.txt[3P[C[C[C[C[C[C[C[C[C[C[C[5Pcat[C[C[C[C[C[C[C[C
+[?2004lhellerefso
+sdhsds
+s
+dsdd
+cx
+cxc
+vf
+gr
+f
+r4]5
+3
+5
+
+gg
+gfdg
+fdgfd
+gfd
+[?2004h]0;rohankumar@TIGER04460: ~[01;32mrohankumar@TIGER04460[00m:[01;34m~[00m$ [7mfind . -type f[27mfind . -type f
+[?2004l./do-stats.sh
+./.sudo_as_admin_successful
+./.gitconfig
+./my_unix_session
+./.bash_history
+./foo.txt
+./.git/index
+./.git/HEAD
+./.git/config
+./.git/description
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/push-to-checkout.sample
+./.git/hooks/update.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-rebase.sample
+./.git/COMMIT_EDITMSG
+./.git/objects/b4/88fcc4cee656840d7a756298456eaa243b3e46
+./.git/objects/51/501ef24e0e4c01f876498ae2fcf09f7019739d
+./.git/objects/58/b43bfc74834c4f4999be38b6d386c4a56eb7e1
+./.git/objects/3d/33325d1a584dc911b62c70f96cfc24dc0dbffd
+./.git/objects/d8/9ea5a6e83a2956d7461b547fa0d7d68103b9c9
+./.git/objects/de/4f5f75d7ccd3a5b62bd2ce683ed678a5cb72c2
+./.git/objects/4d/1c30b7a5849ed583fdcd6367ab3e2377e84cb0
+./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+./.git/objects/ca/e011ef44349f0d375d2986141e6b436c849254
+./.git/info/exclude
+./.git/refs/remotes/origin/master
+./.git/refs/heads/master
+./.git/logs/HEAD
+./.git/logs/refs/remotes/origin/master
+./.git/logs/refs/heads/master
+./.motd_shown
+./.profile
+./shell-lesson-data/north-pacific-gyre/NENE02040Z.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/goodiff.sh
+./shell-lesson-data/north-pacific-gyre/NENE02040A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE02043B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/goostats.sh:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01751A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01736A.txt
+./shell-lesson-data/north-pacific-gyre/NENE02043A.txt
+./shell-lesson-data/north-pacific-gyre/NENE01971Z.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01751B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE02040A.txt
+./shell-lesson-data/north-pacific-gyre/NENE01843A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE02018B.txt
+./shell-lesson-data/north-pacific-gyre/NENE01751B.txt
+./shell-lesson-data/north-pacific-gyre/NENE01751A.txt
+./shell-lesson-data/north-pacific-gyre/goostats.sh
+./shell-lesson-data/north-pacific-gyre/NENE01978A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01729B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01843A.txt
+./shell-lesson-data/north-pacific-gyre/NENE01978B.txt
+./shell-lesson-data/north-pacific-gyre/NENE02018B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01843B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01812A.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01729B.txt
+./shell-lesson-data/north-pacific-gyre/NENE01978B.txt:Zone.Identifier
+./shell-lesson-data/north-pacific-gyre/NENE01843B.txt
+./shell-lesson-data/north-pacific-gyre/NENE01729A.txt:Zone.Identifier
+./shell-le
